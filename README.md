@@ -1,4 +1,3 @@
+Código de desafio - 01
 
-
-![image](https://github.com/LucasRomani/projeto-01-rocketseat/assets/108637297/9090101c-892f-4b18-bf3e-689b8836a3ca)
-
+![image](https://github.com/LucasRomani/projeto-01-rocketseat/assets/108637297/c54471b7-378b-4bad-8555-1a39416de610)
