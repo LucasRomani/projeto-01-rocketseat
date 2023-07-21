@@ -1,6 +1,7 @@
 Código de desafio - 01
 
-![image](https://github.com/LucasRomani/projeto-01-rocketseat/assets/108637297/7a00e108-8320-4c05-bdc8-97a5c6ef178f)
+![image](https://github.com/LucasRomani/projeto-01-rocketseat/assets/108637297/ce6edaa8-205f-46c0-af6e-38bc6d8455c7)
+
 
 
 Projeto 01 - Extra
