@@ -7,7 +7,6 @@
 body {
     max-width: 1024px;
     margin: auto;
-    box-shadow: #3F3D56;
     background-color: #fff;
 }
 
@@ -70,12 +69,13 @@ a {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-top: 64px;
-
 }
 
 img {
-    margin-top: 40.83px;
+    margin-top: 40px;
     max-width: max-content;
 }
