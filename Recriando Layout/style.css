@@ -4,13 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #2F2E41;
-    margin: 0;
-    padding: 0;
-}
-
 #page {
+    background: #2F2E41;
     margin: auto;
     width: 1280px;
     height: 720px;
