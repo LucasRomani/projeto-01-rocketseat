@@ -13,3 +13,7 @@ Código de desafio - 02
 
 ![image](https://github.com/LucasRomani/projeto-01-rocketseat/assets/108637297/b8cc55fe-9c3d-4174-b748-0ba08d067801)
 
+Recriando Layout
+
+
+![image](https://github.com/LucasRomani/projeto-01-rocketseat/assets/108637297/1bd77da2-0eb5-4c5b-8c0b-bf2df01483d4)
