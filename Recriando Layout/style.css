@@ -25,6 +25,7 @@ nav {
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
     font-size: 24px;
+    line-height: 28px;
 }
 
 nav img {
@@ -105,6 +106,7 @@ footer p{
     margin-top: 27px;  
     font-size: 14px;
     font-family: 'JetBrains Mono', monospace;
+    line-height: 28px;
 }
 footer a{
     text-decoration: none;
