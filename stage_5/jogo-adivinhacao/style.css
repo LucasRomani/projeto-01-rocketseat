@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(
+        288deg, #C2E9FB 0%, #A1C4FD 100%
+    );
+    font-size: 1.6rem;
+
+    /*
+    como tem apenas um filho main no body, para deixar centralizado 
+    pode usar o seguinte codigo
+    */
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+main{
+    border-radius: .6rem;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    
+    margin-top: -12rem;
+    
+}
+h1{
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h3{
+    color: rgba(52, 53, 91, 0.80);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+
+    padding-top: 1.6rem;
+}
