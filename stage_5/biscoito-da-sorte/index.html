@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f960.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
     <title>Biscoito da Sorte</title>
@@ -20,13 +21,13 @@
             <h1>Qual é a sua sorte de hoje?</h1>
             <h2>Abra o biscoito e descubra!</h2>
 
-            <img src="./assets/fortune-cookie.svg" alt="biscoito fechado">
+            <img id="cookie" src="./assets/fortune-cookie.svg" alt="biscoito fechado">
         </div>
         <div class="screen2 hide">
             <h2>Aqui esta a sua sorte de hoje:</h2>
 
-            <p></p>
-
+            <p id="quoteText" class="message"></p>
+            <img id="openedCookie" src="./assets/opened-cookie.svg" alt="biscoito aberto" >
             <button id="playAgain">Abrir outro biscoito</button>
         </div>
     </main>
