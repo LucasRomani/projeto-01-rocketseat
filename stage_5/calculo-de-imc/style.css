@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --tt-head: #0C3440;
+
+}
+
+body {
+    background: #040924;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background: #FFFFFF;
+    place-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    display: flex;
+    max-width: 42.5rem;
+   
+}
+
+form h1 {
+    padding-bottom: 3.2rem;
+    color: var(--tt-head)
+}
+
+form label{
+    color: #00453A;
+}
+
+form::placeholder{
+    color: rgba(73, 80, 87, 0.50);
+}
+.inputwrapper + .inputwrapper{
+    margin-top: 1.6rem;
+}
+form input {
+    width: 100%;
+    margin-top: .8rem;
+    background: #DCE2E9;
+    border: none;
+    border-radius: .4rem;
+    padding: 1.6rem;
+
+}
+
+form button:hover{
+    background: #035d79;
+}
+
+form button {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 4px;
+    background: #02799D;
+    padding: 1.6rem;
+    gap: .8rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+
+    border: none;
+    margin-top: 3.2rem;
+
+    transition: background 0.3s;
+}
+
+/* modal */
+
+.modalwrapper.open{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.70);
+
+    display: grid;
+    place-content: center;
+
+    color: #0C3440;
+}
+
+.modalwrapper{
+    display: none;
+}
+
+.modal{
+    position: relative;
+}
+
+.modal button{
+    background: none;
+    border: none;
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+/* alert error */
+
+.alert-error.open{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.alert-error{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #F03E3E;
+    padding: 0.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: transform .5s;
+}
