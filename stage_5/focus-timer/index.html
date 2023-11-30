@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador estilo pomodoro">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="src/main.js" defer></script>
+
+    <link rel="shortcut icon" href="./assets/ph_pause-circle.svg" type="image/x-svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Focus Timer</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <button id="toggle-mode">
+            <span class="sr-only">Ativar/Desativar Light Mode</span>
+            <i class="ph-bold ph-sun"></i>
+            <i class="ph-bold ph-moon"></i>
+        </button>
+
+        <section id="timer" class="flex">
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </section>
+
+        <section id="controls" class="flex">
+            <button class="ph ph-play" data-action="toggleRunning">
+                <span class="sr-only">Iniciar contador</span>
+                </button>
+            <button class="ph ph-pause" data-action="toggleRunning">
+                <span class="sr-only">Pausar contador</span>
+                </button>
+            <button class="ph ph-timer secondary" data-action="set">
+                <span class="sr-only">Ajustar contador</span>
+                </button>
+            <button class="ph ph-stop-circle secondary" data-action="reset">
+                <span class="sr-only">Parar contador</span>
+                </button>
+            <button class="ph ph-speaker-none secondary" data-action="toggleMusic">
+                <span class="sr-only">Desligar musica</span>
+                </button>
+            <button class="ph ph-speaker-high" data-action="toggleMusic">
+                <span class="sr-only">ligar musica</span>
+                </button>
+        </section>
+    </div>
+
+</body>
+
+</html>
